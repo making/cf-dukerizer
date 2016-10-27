@@ -1,0 +1,5 @@
+applications:
+  - name: dukerizer
+    memory: 1g
+    path: target/dukerizer-0.0.1-SNAPSHOT.jar
+    buildpack: https://github.com/ozzyjohnson/heroku-buildpack-multi
